@@ -1,5 +1,5 @@
 ---
-name: cvc-wiki
+name: cyborg-wiki
 description: >-
   Create or update wiki knowledge pages for a game plugin or the framework.
   Use when writing strategy docs, skill guides, mechanics references, or

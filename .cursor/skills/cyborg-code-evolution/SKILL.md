@@ -1,5 +1,5 @@
 ---
-name: cvc-code-evolution
+name: cyborg-code-evolution
 description: >-
   Configure or run the self-improving code evolution pipeline. Use when
   setting up evolution for a new game, customizing editable files, tuning

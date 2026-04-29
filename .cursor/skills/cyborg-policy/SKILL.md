@@ -1,5 +1,5 @@
 ---
-name: cvc-policy
+name: cyborg-policy
 description: >-
   Create or modify the game policy (control loop) that subclasses BasePolicy.
   Use when implementing perceive() to parse game engine observations, execute()

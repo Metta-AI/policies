@@ -1,5 +1,5 @@
 ---
-name: cvc-post-game
+name: cyborg-post-game
 description: >-
   Run or configure post-game analysis on completed game memory dumps.
   Use when setting up the analysis pipeline, customizing the analysis prompt,

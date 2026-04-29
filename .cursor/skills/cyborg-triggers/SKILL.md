@@ -1,5 +1,5 @@
 ---
-name: cvc-triggers
+name: cyborg-triggers
 description: >-
   Create or modify game event triggers that subclass BaseEventDetector.
   Use when implementing event detection for LLM consultation, adding new

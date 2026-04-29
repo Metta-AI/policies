@@ -1,5 +1,5 @@
 ---
-name: cvc-brain
+name: cyborg-brain
 description: >-
   Create or modify a game brain (decision engine) that subclasses BaseBrain.
   Use when implementing per-tick decision logic, adding roles, tuning thresholds,

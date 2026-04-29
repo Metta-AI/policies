@@ -1,5 +1,5 @@
 ---
-name: cvc-harness
+name: cyborg-harness
 description: >-
   Create or modify an LLM harness that subclasses BaseHarness. Use when
   implementing LLM context building, directive parsing, system prompts,
