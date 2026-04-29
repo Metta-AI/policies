@@ -1,0 +1,12 @@
+# Runtime data — game dumps, learnings, score history
+policies/*/runs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
