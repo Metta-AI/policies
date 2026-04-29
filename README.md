@@ -13,6 +13,14 @@ through a closed-loop pipeline: play → analyze → evolve → repeat. The fram
 separates game-agnostic infrastructure from game-specific logic using a plugin
 architecture.
 
+### The Evolution Loop
+
+The agent plays games, learns from mistakes, and rewrites its own code — automatically.
+
+<p align="center">
+  <img src="assets/evolution-loop.png" alt="Evolution Loop — Play, Analyze, Evolve, Score" width="700" />
+</p>
+
 ### What It Does
 
 An agent plays a game. After the game, an LLM (like Claude) analyzes what happened,
@@ -20,6 +28,14 @@ scores performance, and identifies mistakes. Then a code evolution agent makes t
 edits to the agent's decision logic and strategy wiki. The improved agent plays the next
 game. Over hundreds of games, the agent compounds small improvements into significant
 capability gains.
+
+### Plugin Architecture
+
+Game-agnostic framework core connects to any game through a plugin interface.
+
+<p align="center">
+  <img src="assets/plugin-architecture.png" alt="Plugin Architecture — Framework Core + Game Plugins" width="700" />
+</p>
 
 ### Key Features
 
@@ -122,6 +138,12 @@ The framework wiki documents skills that transfer across any game:
 | Role Selection | `wiki/skills/role-selection.md` | Role switching, hysteresis, scripted vs LLM transitions |
 
 ### Weekly Lifecycle
+
+Each week: fork, play, evolve, promote the best patterns, reset. Knowledge compounds.
+
+<p align="center">
+  <img src="assets/weekly-lifecycle.png" alt="Weekly Lifecycle — Fork, Play+Evolve, Report, Promote, Reset" width="700" />
+</p>
 
 ```
 Week N:
